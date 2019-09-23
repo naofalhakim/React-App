@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, TextInput, Image, TouchableOpacity} from "react-native";
 
-import TopBar from "../components/TopBar";
 import NotifLupaSandiBerhasil from "../components/NotifLupaSandiBerhasil";
 import NotifLupaSandiFail from "../components/NotifLupaSandiFail";
 
@@ -18,7 +17,6 @@ class LupaSandi extends Component {
     render() {
       return (
         <View style={{ backgroundColor: "#FFF" }}>
-          <TopBar></TopBar>
           {/* Main Kontent */}
           <View style={{ position: "relative", height: "100%" }}>
             <View style={{ padding: 20, marginTop: 5 }}>

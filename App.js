@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet,View} from 'react-native';
 import AppContainer from './src/config/routes'
 
 const instructions = Platform.select({
@@ -21,7 +21,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <AppContainer></AppContainer>
+        <AppContainer></AppContainer>
     );
   }
 }

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native'
+import {StyleSheet, Text, View, StatusBar, TouchableOpacity} from 'react-native'
 
 import MyInputText from "../components/MyInputText";
 import ConditionalButton from "../components/ConditionalButton";
@@ -15,6 +15,18 @@ const NewLogin =(props)=>{
     return(
         <View style={styles.container}>
             <View style={{ position: "relative", height:'100%' }}>
+                  <StatusBar
+                  barStyle="light-content"
+                  // dark-content, light-content and default
+                  hidden={false}
+                  //To hide statusBar
+                  backgroundColor="#009666"
+                  //Background color of statusBar
+                  translucent={false}
+                  //allowing light, but not detailed shapes
+                  networkActivityIndicatorVisible={true}
+                />
+
                 <View style={{ padding: 20, marginTop: 72,  }}>
                     <Text
                 style={{
@@ -80,7 +92,6 @@ const NewLogin =(props)=>{
 
 const styles = StyleSheet.create({
     container:{
-        backgroundColor:'#FFF'
     }
 })
 

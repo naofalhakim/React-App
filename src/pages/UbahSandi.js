@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, TextInput, Image, TouchableOpacity } from "react-native";
 import iconPassVisible from "../../res/images/visible_pass.png";
-import TopBar from "../components/TopBar";
 import iconBack from "../../res/images/back.png";
 import NotifUbahSandi from "../components/NotifUbahSandi";
 
@@ -13,6 +12,8 @@ class UbahSandi extends Component {
     isShowing:false,
     isSuceed:false,
     passVal:'',
+   
+   
     rePassVal:'',
     passwordValidity:'',
     brColor:"#9D9D9D",
@@ -22,7 +23,6 @@ class UbahSandi extends Component {
   render() {
     return (
       <View style={{ backgroundColor: "#FFF" }}>
-        <TopBar></TopBar>
 
         <View style={{ position: "relative", height: "100%" }}>
           {/* Main Kontent */}
