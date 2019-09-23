@@ -40,6 +40,12 @@
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		EE0D702EDF394E7BBBA8E033 /* libSMXCrashlytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A16BE61C1BB4D9689A0FC9E /* libSMXCrashlytics.a */; };
+		84F39275E399420D83B967BA /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C1BBCC6B3C49C5AF4083D6 /* libRNScreens.a */; };
+		6FDDBF052D2949248EC0C050 /* libRNScreens-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CDD5AA47194B45847CDC6B /* libRNScreens-tvOS.a */; };
+		40C086349C5746B6B9276443 /* libRNReanimated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57023C55DE024077999B37E7 /* libRNReanimated.a */; };
+		0A522D026EE044E1B3AC68E4 /* libRNReanimated-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35581CF23F2C4E5A998C698B /* libRNReanimated-tvOS.a */; };
+		07D10956591B4581AFC6008F /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAA9C4E1F724E4E818B411E /* libRNGestureHandler.a */; };
+		5B95D379FE5B404D95447EC6 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B68F1BEA5274C2BB2ADF5B4 /* libRNGestureHandler-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -349,6 +355,15 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		93823B3D5B8F47C6BEC30683 /* SMXCrashlytics.xcodeproj */ = {isa = PBXFileReference; name = "SMXCrashlytics.xcodeproj"; path = "../node_modules/react-native-fabric/ios/SMXCrashlytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		7A16BE61C1BB4D9689A0FC9E /* libSMXCrashlytics.a */ = {isa = PBXFileReference; name = "libSMXCrashlytics.a"; path = "libSMXCrashlytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F35C455F819F49D5B63FCAFC /* RNScreens.xcodeproj */ = {isa = PBXFileReference; name = "RNScreens.xcodeproj"; path = "../node_modules/react-native-screens/ios/RNScreens.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		53C1BBCC6B3C49C5AF4083D6 /* libRNScreens.a */ = {isa = PBXFileReference; name = "libRNScreens.a"; path = "libRNScreens.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		86CDD5AA47194B45847CDC6B /* libRNScreens-tvOS.a */ = {isa = PBXFileReference; name = "libRNScreens-tvOS.a"; path = "libRNScreens-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		20C5C3F70FB34B6C9C6517FB /* RNReanimated.xcodeproj */ = {isa = PBXFileReference; name = "RNReanimated.xcodeproj"; path = "../node_modules/react-native-reanimated/ios/RNReanimated.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		57023C55DE024077999B37E7 /* libRNReanimated.a */ = {isa = PBXFileReference; name = "libRNReanimated.a"; path = "libRNReanimated.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		35581CF23F2C4E5A998C698B /* libRNReanimated-tvOS.a */ = {isa = PBXFileReference; name = "libRNReanimated-tvOS.a"; path = "libRNReanimated-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F9B27A2BCD044967993B3EEA /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		0FAA9C4E1F724E4E818B411E /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		5B68F1BEA5274C2BB2ADF5B4 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; name = "libRNGestureHandler-tvOS.a"; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +393,9 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				EE0D702EDF394E7BBBA8E033 /* libSMXCrashlytics.a in Frameworks */,
+				84F39275E399420D83B967BA /* libRNScreens.a in Frameworks */,
+				40C086349C5746B6B9276443 /* libRNReanimated.a in Frameworks */,
+				07D10956591B4581AFC6008F /* libRNGestureHandler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +412,9 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				6FDDBF052D2949248EC0C050 /* libRNScreens-tvOS.a in Frameworks */,
+				0A522D026EE044E1B3AC68E4 /* libRNReanimated-tvOS.a in Frameworks */,
+				5B95D379FE5B404D95447EC6 /* libRNGestureHandler-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +589,9 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				93823B3D5B8F47C6BEC30683 /* SMXCrashlytics.xcodeproj */,
+				F35C455F819F49D5B63FCAFC /* RNScreens.xcodeproj */,
+				20C5C3F70FB34B6C9C6517FB /* RNReanimated.xcodeproj */,
+				F9B27A2BCD044967993B3EEA /* RNGestureHandler.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1196,10 +1220,19 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Debug;
@@ -1222,10 +1255,19 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Release;
@@ -1249,6 +1291,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Debug;
@@ -1271,6 +1316,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Release;
@@ -1301,10 +1349,19 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Debug;
@@ -1335,10 +1392,19 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Release;
@@ -1368,10 +1434,19 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Debug;
@@ -1401,10 +1476,19 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-fabric\ios\SMXCrashlytics",
+					"$(SRCROOT)\..\node_modules\react-native-screens\ios",
+					"$(SRCROOT)\..\node_modules\react-native-reanimated\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 				);
 			};
 			name = Release;
